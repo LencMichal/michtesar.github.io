@@ -1,8 +1,9 @@
 <div id="particles-js">
   <div class="header">
       <h1>
-        <span class="site-title">{{site.username}}</span>
-        <span class="site-description">{{site.user_title}}</span>
+        <img src="{{ "/assets/img/portrait.png" | prepend: site.baseurl }}" alt="My portrait from year 2018" width="120">
+        <span class="site-title" style="color: #80dfff; font-size: 45px;">{{site.username}}</span>
+        <span class="site-description" style="font-size: 30px;">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
         <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
